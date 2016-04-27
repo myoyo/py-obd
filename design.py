@@ -16,8 +16,8 @@ class HelloWorld:
 	def on_mainWindow_destroy(self, widget):
 		gtk.main_quit()
 
-	def on_myButton_clicked(self, widget):
-		self.myLabel.set_text("Yooo World!")
+	# def on_myButton_clicked(self, widget):
+	#	self.myLabel.set_text("Yooo World!")
 
 if __name__ == "__main__":
 	HelloWorld()
